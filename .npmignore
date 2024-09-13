@@ -1,0 +1,12 @@
+node_modules/
+src/
+test/
+.vscode/
+.nvmrc
+tsconfig.json
+tsconfig.build.json
+tsconfig.base.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+pnpm-workspace.yaml
