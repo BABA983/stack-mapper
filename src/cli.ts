@@ -6,7 +6,6 @@ import { SourceMapConsumer } from 'source-map';
 import { parse } from 'stacktrace-parser';
 import { ConsoleLogger, LogLevel } from './log';
 import { version } from '../package.json';
-import { debuglog } from 'util';
 
 //#region copy from untildify
 const homeDirectory = os.homedir();
@@ -47,9 +46,6 @@ const options = program.opts<IOptions>();
 if (options.verbose) {
 	logger.setLevel(LogLevel.Debug);
 }
-
-const log = debuglog('stack-mapper');
-log('options', options);
 
 async function main() {
 	const sourcemapDir = path.format(path.parse(untildify(path.normalize(options.map))));
