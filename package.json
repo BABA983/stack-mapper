@@ -21,6 +21,7 @@
     "javascript",
     "typescript"
   ],
+  "repository": "https://github.com/BABA983/stack-mapper.git",
   "author": "BABA <raoqidi@foxmail.com>",
   "license": "MIT",
   "scripts": {
