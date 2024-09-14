@@ -1,5 +1,5 @@
 {
-  "name": "stack-mapper",
+  "name": "@_baba/stack-mapper",
   "version": "0.0.1",
   "description": "A CLI tool to map stack traces to source code.",
   "bin": {
@@ -21,7 +21,10 @@
     "javascript",
     "typescript"
   ],
-  "repository": "https://github.com/BABA983/stack-mapper.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BABA983/stack-mapper.git"
+  },
   "author": "BABA <raoqidi@foxmail.com>",
   "license": "MIT",
   "scripts": {

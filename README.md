@@ -5,6 +5,8 @@ A CLI tool to map stack traces to source code.
 ## Usage
 
 ```bash
+$ npm install -g @_baba/stack-mapper
+
 Usage: stackmapper [options]
 
 Options:
